@@ -1,0 +1,35 @@
+.gddd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.containerr {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   .containerr input {
+    display: none;
+  }
+  .containerr label {
+    display: inline-block;
+    border: 1px solid maroon;
+    font-size: 1vw;
+    color:maroon;
+    padding: 1vw;
+    width: 15vw;
+    text-align: center;
+    margin: 1vw
+  }
+  .containerr input:checked+label {
+    color: #fff;
+    background-color: maroon;
+  }
+  .trt{
+    margin-top:2vw;
+  }
+
+  /* gagi ka par kaya pala napapaltan yung nasa log in
+  LAGYAN MO NG CLASSNAME HINDI YAN SASS BOI T__T_T_T_T */

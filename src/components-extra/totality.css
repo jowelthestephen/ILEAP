@@ -1,0 +1,150 @@
+.totality-container h1{
+    text-align: center;
+}
+.h1s{
+    display: flex;
+    justify-content: space-around;
+}
+.totality{
+    display: flex;
+}
+.internship-grid{
+    flex: 1;
+    padding: 5vw;
+}
+.internship-grid > div{
+    margin: 2vw;
+}
+.jobs-grid{
+    flex: 1;
+    padding: 5vw;;
+}
+.jobs-grid > div{
+    margin: 2vw;
+}
+.job{
+    width: 100%;
+}
+.companyName11{
+    color: rgb(255, 255, 255);
+    font-size: 1.2vw;
+    margin-top:5px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.location11{
+font-size: .8vw;
+color: rgb(255, 255, 255);
+margin-left: 5px;
+}
+.workingHours11{
+font-size: .8vw;
+color: white;
+margin-left: 5px;
+
+
+}
+.job11{
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.519);
+    height: 40vh ;
+    
+}
+.cImg1{
+    width: 100%;
+    height: 25vh;
+}
+
+
+/*details CSS*/
+.detailsCont::-webkit-scrollbar {
+    display: none;
+  }
+ .detailsCont {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   width: 100vw;
+   height: 100vh;
+}
+.leftt{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.detImg{
+    width: 90%;
+    height: 50%;
+    border: solid gray 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vw 0 2vw 3vw ;
+}
+.detImg img{
+image-rendering: optimizeQuality;
+  width: 100%;
+  height: 100%;
+}
+.detCompName{
+    font-weight: bolder;
+    font-size: 2vw;
+    margin: 0 0 1vw 3vw
+}
+.detDesc{
+    font-size: 1vw;
+    margin: 0 0 2vw 4vw
+}
+.dett{
+    font-size: 1vw;
+    margin: 0 0 0 3vw
+}
+.detEm{
+    font-size: 1vw;
+    color: white;
+    margin-top:1vh;
+}
+.rightt{
+    display: flex;
+    flex-direction: column;
+    background-color: maroon;
+    align-items: center;
+} 
+.empDet{
+    margin-top: 8vw;
+}
+
+.detProf{
+    display: flex;
+    justify-content: center;
+    margin: 3vw 0 2vw 0vw;
+    border: solid gray 1px;
+    width: 50%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+}
+.detName{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    color: white;
+}
+.detNumb{
+    text-align: center;
+    font-size: 1vw;
+    color: white;
+
+}
+.btnnn{
+    padding: 1vw;
+   
+}
+.btnnn button{
+    background-color: maroon;
+    padding: 1vh 2vh 1vh 2vh;
+    color: white;
+    border: none;
+    border-radius: 1vh;
+}

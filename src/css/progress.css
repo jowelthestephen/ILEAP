@@ -1,0 +1,93 @@
+.time{
+    color: rgb(213, 213, 213);
+    text-align: center;
+    font-size: 2vw;
+}
+.inn{
+    padding: 1vh 2vh 1vh 2vh;
+    width: 9vw;
+    background-color: green;
+    color: white;
+    border: none;
+    margin-right: 2vw;
+    font-size: .8vw;
+    
+}
+.ttime{
+    background-color: maroon;
+    padding: 3vw 3vw 3vw 3vw;
+    margin: 0 5vw 0 5vw;
+}
+.outt{
+    padding: 1vh 2vh 1vh 2vh;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: .8vw;
+    width: 9vw;
+}
+.inout{
+    display: flex;
+    justify-content: center;
+    margin: 2vw;
+}
+.goddy{
+    display: flex;
+}
+.rright{
+    flex: 2;
+}
+.lleft{
+    flex: 1;
+}
+.linkk{
+    display: flex;
+   justify-content: center;
+    
+}
+.lin{
+    text-decoration: none;
+    font-size: 1vw;
+    margin: 2vw;
+}
+.bfr{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    justify-content: center;
+   align-items: center;
+
+}
+.bfr h1{
+    color: black;
+    font-size: 1vw;
+}
+.bft{
+    text-align: center;
+}
+.bft h1{
+    color: black;
+    font-size: 1vw;
+}
+.cff{
+    margin: 4vw 0 2vw 10vw;
+    font-size: 1vw;
+}
+.labll{
+    margin-left: 10vw;
+    font-size: 1vw;
+}
+.subsub{
+    font-size: 1vw;
+    padding: 1vh 2vh 1vh 2vh;
+    margin: 2vw 0 0 10vw;
+    border: none;
+    background-color: maroon;
+    color: white;
+ 
+}
+.aaaa{
+padding: 5vw 0 10vw 0;
+margin-right: 4vw;
+background-color: rgba(136, 136, 136, 0.237);
+}

@@ -1,0 +1,101 @@
+/* JOBS CSS */
+.jobs-container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.job-grid{
+    display: grid;
+    gap: 70px;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.job{
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.519);
+}
+.genn{
+    
+}
+.companyImage{
+    
+}
+.cImg{
+    width: 100%;
+    height: 25VH;
+}
+.companyName{
+    color: rgb(255, 255, 255);
+    font-size: 1.2vw;
+    margin-top:5px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.location{
+font-size: .8vw;
+color: rgb(255, 255, 255);
+margin-left: 5px;
+}
+.workingHours{
+font-size: .8vw;
+color: white;
+margin-left: 5px;
+
+
+}
+
+.cMore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.cMore button {
+    border: none;
+   
+    padding: 5px;
+    background-color: green;
+    color: white;
+    font-size: .8vw; 
+}
+.cMore button {}
+/*EMPLOYER CSS*/
+.employer-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.employer-container form{
+    display: grid;
+}
+.to-totality{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.totality-button{
+    background-color: green;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+}
+.totality-button:hover{
+    background-color: rgb(0, 164, 0);
+ 
+}
+.bb{
+    padding: 1vw 1vw 1vw 1vw;
+    text-align: start;
+   width: 20vw;
+}
+.bbtn{
+    padding: 1vw;
+    background-color: maroon;
+    color: white;
+}
+.bbtn:hover{
+    background-color: rgb(167, 0, 0);
+    cursor: pointer;
+}
+.ttle{
+    text-align: center;
+    margin-bottom:20px;
+}

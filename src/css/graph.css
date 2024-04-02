@@ -1,0 +1,42 @@
+.data-container{
+   
+}
+
+.containerrr {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   .containerrr input {
+    display: none;
+  }
+  .containerrr label {
+    display: inline-block;
+    border: 1px solid maroon;
+    font-size: 1vw;
+    color:maroon;
+    padding: 1vw;
+    width: 15vw;
+    text-align: center;
+    margin: 1vw
+  }
+  .containerrr input:checked+label {
+    color: #fff;
+    background-color: maroon;
+  }
+ 
+  .namos h2{
+    font-size: 1.3vw;
+    text-align: center;
+    margin-top: 1vw;
+    font-weight: normal;
+  }
+.tite{margin: 4vw 15vw 2vw 15vw;
+}
+.tite2{margin: 2vw 15vw 2vw 15vw}
+.tite3{margin: 2vw 15vw 2vw 15vw}
+.borbor{
+    border-bottom: solid maroon 2px;
+    margin: 1vw 5vw 1vw 5vw;
+}

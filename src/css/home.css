@@ -1,0 +1,245 @@
+*{
+    margin:  0px;
+    padding: 0px;
+    position: relative;
+}
+/* HEADER */
+header{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+.user-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.user-profile{
+    padding: 10px 1vw 10px 2vw;
+}
+.user-profile img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    padding-left: 1.5vw;
+    padding-top: 1.5vh;
+    justify-content: end;
+}
+.logo-container img{
+   margin-left: 1vw;
+    width: 5vw;
+    mix-blend-mode:lighten;
+}
+.user-name{
+  color: white;
+}
+
+/* body */
+.video{
+   width: 100%;
+}
+video{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -21vh;
+    z-index: -1;
+    height: 100%;
+    
+}
+.home-main{
+    scroll-behavior: smooth;
+    height: 90vh;
+    display: grid;
+    grid-template-columns:2fr 1fr ;
+    justify-content: center;
+    align-items: center;    
+    background-color: white;
+
+}
+.details-container{
+    text-align: center;
+    display: grid;
+    place-content: center;
+}
+.title{
+    font-size: 10vw;
+    color: rgb(169, 8, 8);
+    filter: drop-shadow(6px 4px 8px);
+    text-shadow: 7px 0.5px rgb(127, 17, 17);
+}
+.details-container p{
+    width: 30vw;
+}
+/*DROP DOWN CSS*/
+.p-menu1{
+  
+ 
+}
+
+/* Hamburger */
+.hamburger1 {
+  height: 5px;
+  margin: 0px 0 0 0;
+  display: -ms-grid;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  z-index: 120;
+  background-color: maroon;
+  padding: 2vw;
+  padding-bottom: 3vw;
+  cursor: pointer;
+}
+
+.hamburger1 div {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  width: 1.8vw;
+  height: 0.34vh;
+  margin-top: 5px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#toggle1 {
+  display: none;
+}
+
+#toggle1:checked + .hamburger1 .top {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  
+}
+
+#toggle1:checked + .hamburger1 .meat {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin-top: -3px;
+}
+
+#toggle1:checked + .hamburger1 .bottom {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+#toggle1:checked ~ .menu1 {
+  height: auto;
+}
+#toggle1:checked ~ .menu2 {
+ width: 15vw;
+ display: flex;
+ background-color: maroon;
+ height: 81.79px;
+ padding-right: 2vw;
+ 
+}
+
+#toggle1:checked + .hamburger1{
+   
+  display: grid;
+  justify-content: end;
+ 
+}
+
+
+/* Menu */
+.menu1 {
+  width: 13vw;
+  
+  margin: 1vw 0 0 0 ;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.727);
+  right: .5vw;
+  display: grid;
+  grid-template-rows: 1fr repeat(4, 0.5fr);
+  grid-row-gap: 25px;
+  padding-left: 1vh;
+  padding-right: 2vw;
+  list-style: none;
+  clear: both;
+  height: 0px;
+  overflow: hidden;
+  transition: height .4s ease;
+  z-index: 1;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.menu1 a {
+    text-decoration: none;
+    color: #fff;
+}
+.menu1 a:first-child {
+  margin-top: 40px;
+}
+
+.menu1 a:last-child {
+  margin-bottom: 40px;
+}
+
+.dropdown-options{
+    padding: 10px;
+    
+}
+.dropdown-options:hover{
+  color: rgb(178, 178, 178);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.menu2 {
+position: absolute;
+top: 0;
+right:0;
+display: flex;
+align-items: center;
+justify-content: start;
+display: none;
+
+width:0px;
+}
+
+
+/* scroll */
+
+
+.box span {
+	width: 35px;
+	height: 35px;
+  position: absolute;
+  display: block;
+	border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	transform: rotate(45deg);
+	margin: -10px;
+	animation: animate 2s infinite;
+  bottom: 40vh;
+  right: 50%;
+}
+
+.box span:nth-child(2) {
+	animation-delay: -0.2s;
+}
+
+.box span:nth-child(3) {
+	animation-delay: -0.4s;
+}
+
+@keyframes animate {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+		transform: rotate(45deg) translate(10px, 10px);
+	}
+	100% {
+		opacity: 0;
+	}
+}
